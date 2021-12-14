@@ -1,0 +1,256 @@
+.pay-module-desktop-rtl {
+    background-color: white;
+    width: 900px;
+    margin: 0 auto;
+	border-bottom: 1px solid #d2d3d5;
+	padding-bottom: 20px;
+		padding-top: 20px;
+ }
+
+.pay-module-desktop-rtl .container {
+    padding: 30px;
+}
+
+
+.pay-module-desktop-rtl .gap{
+	height:15px;
+	width: 15px;
+}
+
+.pay-module-desktop-rtl .inputAmount-desktop{
+	width:85%;
+	font-family:Assistant;
+	height:75px;
+	border: 0px !important; 
+
+    font-size: 40px;
+	text-align:center;
+	display:inline-block;
+}
+
+.pay-module-desktop-rtl .t-down{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #007bff transparent transparent transparent;
+    display:inline-block;
+}
+.pay-module-desktop-rtl .t-up{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #5bf451 transparent transparent transparent;
+    display:inline-block;
+}	
+
+
+.pay-module-desktop-rtl .select-valute{
+	width:13%; 
+	height:75px;
+	display:inline-block;
+    transform: translate(0px, 16.3px);
+}
+
+.pay-module-desktop-rtl .valute{
+	width:100%;
+	height:70%;
+	
+	font-size: 40px;
+	font-weight: 700;
+    line-height: 60px;
+	
+	background-color: #ffffff; 
+	transform: translate(0px, 0px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-wrap{
+    
+    width:100%;
+    height:30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff; 
+}
+.pay-module-desktop-rtl .block {
+    position: relative;
+    padding: 20px 15px 20px 20px;
+    border: 1px solid #747474;
+    border-top: 1px solid #487922;
+    background: #ededed;
+    margin: 20px;
+	font-size:24px;
+	font-family: 'Assistant', sans-serif;
+	border-radius: 20px;
+}
+
+
+.menu-hidden{
+    display: none;
+}
+
+.menu-visible{
+    display: inline-block;  
+
+}
+
+
+.pay-module-desktop-rtl h3{
+	text-align: center;
+}
+
+.hidden-desktop{
+	
+	display:none;
+	
+}
+
+.shown-desktop{
+	
+	display:block;
+}
+
+.pay-module-desktop-rtl .input-control{
+	font-family: 'Assistant', sans-serif;
+	font-size:26px;
+	margin-left:20px;
+	
+	-webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark-color(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: -internal-light-dark-color(white, black);
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+	border-radius:4px;
+   
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;	
+	
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.pay-module-desktop-rtl .inputAmount-desktop{
+	width:85%;
+	font-family:Assistant;
+	height:75px;
+	border: 0px; 
+    font-size: 40px;
+	text-align:center;
+	display:inline-block;
+}
+
+
+
+.pay-module-desktop-rtl .select-control{
+	font-family: 'Assistant', sans-serif;	
+	font-size:26px;	
+	margin-bottom:20px;	
+}
+
+.pay-module-desktop-rtl .radio-control{
+	margin-bottom:20px;
+	font-family: 'Assistant', sans-serif;	
+	font-size:26px;
+}
+
+
+.down-arrow-panel-desktop-hide
+{
+	text-align: center;
+	height: 130px;
+	display:none;
+
+	
+}
+
+.down-arrow-panel-desktop-show
+{
+	text-align: center;
+	height: 130px;
+	display:block;
+
+	
+}
+
+.down-arrow{
+	animation: arrow 3s linear infinite;
+}
+
+
+
+@keyframes arrow
+{
+     0%, 100% {
+    width: 90px;
+  }
+  50% {
+    width: 100px;
+  } 
+}
+
+
+
+.pay-module-desktop-rtl .trom {
+
+    text-align: center;
+	display: block;
+	vertical-align:middle;
+    line-height: 60px;
+    border: 0 none;
+    font-size: 26px;
+    padding-left: 60px; 
+    padding-right: 60px; 
+    -webkit-appearance: none;
+    font-weight: 700;
+    background: none;
+    cursor: pointer;
+    box-sizing: content-box;
+
+    border: 3px solid #000000;
+	border-radius: 15px;
+	text-align: center;
+	font-size: 26px;
+	color: white;	
+	width: 212px;
+	height: 134px;
+	margin: 0 auto;
+	background-color: #f47721;
+	transition:  font-size 0.75s;
+}
+
+
+.pay-module-desktop-rtl .trom:hover { 
+	font-size: 32px;
+	transition:  font-size 0.75s;
+ } 
+
+
+
+

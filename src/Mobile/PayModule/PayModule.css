@@ -1,0 +1,303 @@
+.pay-module-mobile-rtl {
+    background-color: white;
+    /* width: 900px; */
+    margin: 0 auto;
+	/* border-bottom: 1px solid #d2d3d5; */
+ }
+
+.pay-module-mobile-rtl .container {
+    padding: 30px;
+}
+
+.pay-module-mobile-rtl .pay-image{
+	
+	padding-right: 18%;
+}
+
+.input-group-text input[type=radio] {
+    
+    vertical-align: baseline;
+    padding: 10px;
+    margin: 10px;
+}
+
+.rc-label{
+	font-size: 1.5rem;
+}
+
+.pay-module-mobile-rtl .t-down{
+    width: 0;
+height: 0;
+border-style: solid;
+border-width: 10px 10px 0 10px;
+border-color: #007bff transparent transparent transparent;
+display:inline-block;
+}
+
+.pay-module-mobile-rtl .t-up{
+    width: 0;
+height: 0;
+border-style: solid;
+border-width: 10px 10px 0 10px;
+border-color: #5bf451 transparent transparent transparent;
+display:inline-block;
+}	
+
+
+
+.down-arrow-panel-mobile-hide{
+	text-align: center;
+    height: 90px;
+	display:none;
+}
+
+.down-arrow-panel-mobile-show{
+	text-align: center;
+    height: 90px;
+	display:block;
+}
+
+.down-arrow-mobile{
+	animation: arrowMobile 3s linear infinite;
+}
+
+
+@keyframes arrowMobile
+{
+     0%, 100% {
+    width: 90px;
+  }
+  50% {
+    width: 100px;
+  } 
+}
+
+
+
+.asterisk{
+	color: red;
+	margin-right: 5px;
+}
+
+.pay-module-mobile-rtl .title {
+    height: auto;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    padding-bottom: 5px;
+	text-align: center;
+	color: black;
+}
+
+.pay-module-mobile-rtl h3{
+	text-align: center;
+}
+
+
+.pay-module-mobile-rtl  .i-visa{
+	color: white;
+	
+	margin-right:10px;
+	
+
+    font-size: 2rem;
+
+
+}
+
+.flag{
+	display:inline;
+
+	
+}
+
+.pay-module-mobile-rtl .image-flag{
+	width:30px;
+	height:30px;
+}
+
+.span-trom-mobile{
+	
+
+  display: inline-block;
+  vertical-align: middle;
+  transform: translate(0%, 50%);
+}
+
+.pay-module-mobile-rtl .block-mobile {
+    position: relative;
+    
+    border: 1px solid #747474;
+    border-top: 1px solid #487922;
+    background: #ededed;
+    margin: 20px;
+	font-size:24px;
+	font-family: 'Assistant', sans-serif;
+	border-radius: 20px;
+}
+
+.pay-module-mobile-rtl .gap{
+	height:15px;
+	width: 15px;
+}
+
+.pay-module-mobile-rtl .inputAmount-mobile{
+	width:85%;
+	font-family:Assistant;
+	height:75px;
+	border: 0px; 
+   
+    font-size: 40px;
+	text-align:center;
+	display:inline-block;
+}
+
+.select-valute{
+	width:13%; 
+	height:75px;
+	display:inline-block;
+transform: translate(0px, 16.3px);
+}
+.valute{
+	width:100%;
+	height:70%;
+	
+	font-size: 40px;
+	font-weight: 700;
+    line-height: 60px;
+	/* border-bottom-left-radius:  0.75rem;	 */
+	background-color: #ffffff; 
+	transform: translate(0px, 0px);
+    /* text-align: center;	 */
+	/* vertical-align: middle; */
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-wrap{
+    
+        width:100%;
+        height:30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff; 
+}
+
+select.select-control {
+    width: 100%;
+  
+	 height:150px; 
+
+    font-size: 30px;
+	border: 0px;
+    line-height: 60px;
+
+    line-height: 1;
+    border: 0;
+    background: blanchedalmond;
+
+    /* background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ddd; */
+    -webkit-appearance: none;
+    background-position-x: 0px;
+    /* float: left; */
+
+}
+
+.menu-hidden{
+    display: none;
+}
+
+.menu-visible{
+    display: inline-block;  
+
+}
+
+
+
+
+.hidden-mobile{
+	
+	display:none;
+	
+}
+
+.shown-mobile{
+	
+	display:block;
+}
+
+.trom-mobile {
+
+    text-align: center;
+	vertical-align:middle;
+    line-height: 60px;
+    border: 0 none;
+    font-size: 26px;
+    /* padding-left: 60px;  */
+    /* padding-right: 60px;  */
+    -webkit-appearance: none;
+    font-weight: 700;
+    background: none;
+    cursor: pointer;
+    box-sizing: content-box;
+	width: 100%;
+
+    border: 1px solid #000000;
+	
+	border-radius: 15px;
+	text-align: center;
+	font-size: 40px;
+	color: white;	
+	
+	padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+
+
+	
+	/* width: 212px; */
+	height: 134px;
+	/* margin: 0 auto; */
+
+	/* color: black; */
+	/* z-index: 2; */
+	
+	
+ 	/* background: url(/img/beit-habad/visa.png); */
+	/* background-repeat: no-repeat; */
+	
+	
+	/* filter: blur(4px);	 */
+	/* background: #2193b0;   */
+	/* background: -webkit-linear-gradient(to bottom, #6dd5ed, #2193b0);   */
+	/* background: linear-gradient(to bottom, #6dd5ed, #2193b0);  */
+
+	
+	/* background: #23074d;   */
+	/* background: -webkit-linear-gradient(to right, #cc5333, #23074d);   */
+	/* background: linear-gradient(to right, #cc5333, #23074d);  */
+
+ 	 /* background: url(/img/beit-habad/100usd.png); 	 */
+	 /* background-repeat: no-repeat;  */
+	background-color: #f47721;
+	
+	/* opacity: 0.5; */
+	/* transition: opacity .75s ease-in-out,   transform 0.75s, box-shadow 0.75s,color 0.75s, font-size 0.75s; */
+	transition:  font-size 0.75s;
+}
+/* 
+.trom-mobile:hover { 
+	 opacity: 1; 
+	 text-align: center; 
+	 font-size: 32px; 
+	 transition:  font-size 0.75s; 
+	 color: white;	 
+	 transition: opacity .75s ease-in-out,   transform 0.75s, box-shadow 0.75s, color 0.75s, font-size 0.75s; 
+ } 
+ */
